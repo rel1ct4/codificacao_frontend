@@ -1,0 +1,16 @@
+div{
+    background-color: aqua;
+}
+
+.um{
+    background-color: cadetblue;
+}
+
+.tres{
+    background-color: beige;}
+
+body{
+    background-image: url("/aula-09/lasanha.jfif");
+    background-repeat: repeat-y;
+    height: 1500px;
+}
