@@ -1,0 +1,24 @@
+body{
+    background-color: beige;
+}
+
+.foto{
+    display: inline-block;
+    width: 300px;
+    padding: 50px;
+    margin: auto;
+    margin-left: 150px;
+    margin-right: auto;
+}
+
+.corpo{
+    display: inline-block;
+    background-color: white;
+
+}
+
+.dinheiro{
+    color: darkgreen;
+    display: inline-block;
+}
+
