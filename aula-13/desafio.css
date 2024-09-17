@@ -1,0 +1,28 @@
+body{
+    background-color: white;
+} 
+
+.letras{
+    flex-direction: column;
+    display: flex;
+    align-items: center
+}
+
+.titulo{
+    font-style: normal;
+}
+
+.bloco{
+    align-content: space-around;
+ 
+}
+
+.lupa{
+    display: flex;
+    justify-content: end;
+}
+
+img{
+    display: flex;
+    justify-content: end;
+}
