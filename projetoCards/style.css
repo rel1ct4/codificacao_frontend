@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0%;
+}
+
+:root{
+
+--Red: hsl(0, 78%, 62%);
+--Cyan: hsl(180, 62%, 55%);
+--Orange: hsl(34, 97%, 64%);
+--Blue: hsl(212, 86%, 64%);
+--Very-Dark-Blue: hsl(234, 12%, 34%);
+--Grayish-Blue: hsl(229, 6%, 66%);
+--Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+.titulo{
+    color: var(--Very-Dark-Blue);
+    font-weight: 200;
+    text-align: center;
+}
+
+.subtitulo{
+    color: var(--Very-Dark-Blue);
+    text-align: center;
+}
+
+.texto{
+    font-weight: 15px;
+    color: var(--Grayish-Blue);
+    text-align: center;
+}
+
+.supervisor{
+    display: inline-flex;
+    flex-direction: column;
+    box-shadow: 10px 9px 39px 14px rgba(163,165,174,0.2);
+    border-radius: 5px;
+    padding: 30px;
+    border-top: 5px solid var(--Cyan);
+}
+
+.card-titulo{
+    color: var(--Very-Dark-Blue);
+    margin-bottom: 10px;
+}
+
+.card-texto{
+    color: var(--Grayish-Blue);
+    width: 350px;
+    margin-bottom: 50px;
+}
+
+.icon-card{
+    width: 75px;
+    align-self: flex-end;
+}
