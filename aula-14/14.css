@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    color: rgb(95, 43, 226);
+}
+a:visited{
+    color: rgb(255, 0, 0);
+}
+a:hover{
+    background-color: aquamarine;
+    color:black
+}
+a:active{
+    background-color: blueviolet;
+}
